@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!----------STYLESHEET---------->
+     <link rel="stylesheet" href="Login.css">
+    
+     <!---------ICON----------------->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+     <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+ 
+     <!---------MONTSERATT----------->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700&family=Roboto:wght@700&family=Tektur:wght@500&display=swap" rel="stylesheet">
+    <title>Register</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="../Login/database/register.php" method="get">
+            <h1>Sign Up</h1>
+            <div class="input-box">
+                <input name="email" type="text" placeholder="Email" required>
+                <span class="material-symbols-sharp">mail</span>
+            </div>
+            <div class="input-box">
+                <input name="username" type="text" placeholder="Usename" required>
+                <span class="material-symbols-sharp">account_circle</span>
+            </div>
+            <div class="input-box">
+                <input name="password" type="password" placeholder="Password" required>
+                <span class="material-symbols-sharp">lock</span>
+            </div>
+
+            <button name="register1" type="submit" class="btn">Sign up</button>
+            <div class="register-link">
+                <p> I already have an account. <a href="Login.html">Login</a></p>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
